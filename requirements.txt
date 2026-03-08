@@ -1,0 +1,19 @@
+# AI Data Analyst — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core UI framework
+streamlit>=1.35.0
+
+# LLM client (Groq API)
+groq>=0.9.0
+
+# Data processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Environment variable loading
+python-dotenv>=1.0.0

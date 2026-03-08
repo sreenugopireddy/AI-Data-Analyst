@@ -1,0 +1,59 @@
+# ── API Keys & Secrets ────────────────────────────────────────────────────────
+.env
+*.env
+.env.local
+.env.production
+
+# ── Python Virtual Environment ────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Cache & Bytecode ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# ── Logs & Temp Files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+
+# ── Build & Distribution ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Data Files (optional — remove if you want to commit datasets) ─────────────
+# *.csv
+# data/
