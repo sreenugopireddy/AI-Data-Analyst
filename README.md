@@ -10,6 +10,8 @@ Built with **Streamlit · Groq LLaMA 3 · Pandas · Seaborn/Matplotlib**
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ---
+#Preview
+![Uploading AI_ANALYST.png…]()
 
 ## ✨ Features
 
